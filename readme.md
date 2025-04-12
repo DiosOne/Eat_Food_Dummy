@@ -13,3 +13,4 @@
     - moved docs into src folder
     -->
 
+<p>fixed issues

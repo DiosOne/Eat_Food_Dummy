@@ -3,73 +3,94 @@
 }
 
 body {
-  background-color: #28F6C9; /* set the background color to turquoise */
-  border: 20px solid white; /* add a white border around the body */
-  margin: -10px 0 -10px 0; /* remove the margin to get rid of the blue line */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
-  'Lucida Sans', Arial, sans-serif;
+  background-color: #28F6C9;
+  border: 20px solid white;
+  margin: -10px 0 -10px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h2 {background-color: #FDF1D8;}
-p {
-  background-color: #00A3FF;}
 
-/*.pic {
-    display: flex;
-    justify-content: center;
-    }
-*/
-a {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p {
+  background-color: #00A3FF;
 }
+
+h2 {
+  background-color: #FDF1D8;
+  width: 75vw;
+  margin: 0;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00A3FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color:#301A4B ;
+}
+
 .p2 {
   background-color: #00A3FF;
   padding: 10px;
   border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.p3 {
   display: flex;
   justify-content: center;
-  }
-.p3 {
-   text-decoration: underline;
-   background-color: #301A4B; 
-   font-size: 28px;
+  align-items: center;
+  background-color: #301A4B;
+
 }
 
 .p4 {
-    background-color: #301A4B; 
+  text-decoration: underline;
+  background-color: #301A4B;
+  font-size: 28px;
 }
-
-
 
 header {
-    background-color: #FDF1D8;
-    padding: 2vw;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 10px;
-    word-spacing: 20px;
-
+  background-color: #FDF1D8;
+  padding: 2vw;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  word-spacing: 20px;
 }
+
 footer {
   background-color: #301A4B;
   color: white;
   height: 100px;
   padding: 2vw;
-  flex-direction: column;
-  align-items: top;
-  justify-content: space-around;
+  display: flex; /* Ensure flexbox is applied */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Horizontally center items */
+  justify-content: center; /* Vertically center items */
   font-size: 30px;
   letter-spacing: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
-  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-}
+  }
 
 footer h2 {
   margin-top: 0;
